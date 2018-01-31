@@ -1,1 +1,27 @@
-# unikernel
+# plan
+
+- unikernel
+    - concepts
+    - historique exokernel
+- écosystème
+- cas d'utilisation
+    - iot
+    - nfv
+    - faas
+    - cloud
+- avantages
+    - taille du binaire
+    - sécurité
+        - surface d'attaque
+    - temps de démarrage
+- inconvénients
+    - outillage standard que l'on perd (profiling par exemple)
+    - drivers à gérer (compromis grâce kvm)
+- comparaison vm vs container linux vs unikernel
+- démo
+    - (hello world en c/asm compilé dans une image de boot)
+    - unikernel sur raspberry (includeos)
+    - un serveur web classique sur cloud (runtimejs)
+- débugage
+- bench / perf
+    - tourne en ring 0 (discutable pour le runtime kvm, mais oui sur du bare metal)
